@@ -1,0 +1,35 @@
+echo '<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    h1 {
+      color: #333;
+      font-size: 48px;
+    }
+    p {
+      color: #666;
+      font-size: 20px;
+    }
+    .box {
+      background: white;
+      display: inline-block;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Hello from EC2 Web Server!</h1>
+    <p>Your web server is up and running 🚀</p>
+  </div>
+</body>
+</html>' | sudo tee /var/www/html/index.html
