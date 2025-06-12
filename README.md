@@ -9,5 +9,6 @@ I recently set up a scalable and highly available architecture using:
  Each server serves a different HTML page, and the ALB ensures seamless switching and uptime — a solid step toward mastering cloud infrastructure and HA systems.
 
 Here’s the architecture diagram I followed 👇
+Untitled video - Made with Clipchamp.mp4
 
 #AWS #CloudComputing #DevOps #EC2 #LoadBalancer #AWSProjects #Scalability #HighAvailability #CloudSkills
